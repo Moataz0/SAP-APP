@@ -166,7 +166,7 @@ const ItemsPage: React.FC = () => {
               <label htmlFor="contractNumber" style={{ color: "#556b81" }}>
                 Contract Number:
               </label>
-              <Input id="contractNumber" />
+              <Input id="contractNumber"  placeholder="Placeholder Text"/>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
@@ -176,7 +176,7 @@ const ItemsPage: React.FC = () => {
               >
                 Created On:
               </label>
-              <Input id="createdBy" />
+              <Input id="createdBy"  placeholder="DEC 22, 2021"/>
             </div>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
@@ -186,7 +186,7 @@ const ItemsPage: React.FC = () => {
               >
                 Created By:
               </label>
-              <DatePicker id="createdOn" />
+              <DatePicker id="createdOn"  placeholder="List Item"/>
             </div>
 
             <div
@@ -199,7 +199,7 @@ const ItemsPage: React.FC = () => {
               <label htmlFor="customerReference" style={{ color: "#556b81" }}>
                 Customer Reference:
               </label>
-              <Input id="customerReference" />
+              <Input id="customerReference" placeholder="Placeholder Text"/>
             </div>
           </div>
 
